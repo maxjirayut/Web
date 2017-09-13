@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/tvItam"
+        android:layout_width="93dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imvPic"
+        app:layout_constraintLeft_toRightOf="@+id/imvPic"
+        app:layout_constraintTop_toTopOf="@+id/imvPic"
+        app:layout_constraintVertical_bias="0.547"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/imvPic"
+        android:layout_width="73dp"
+        android:layout_height="71dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginStart="51dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="27dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="51dp" />
+</android.support.constraint.ConstraintLayout>
